@@ -1,4 +1,6 @@
 # Implementation-of-filter
+## Name: Ananda Rakshan K V
+## Reg.No: 212223230014
 ## Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
 
@@ -8,22 +10,18 @@ Anaconda - Python 3.7
 ## Algorithm:
 ### Step1
 Import the required libraries.
-
 ### Step2
 Convert the image from BGR to RGB.
-
 ### Step3
 Apply the required filters for the image separately.
-
 ### Step4
 Plot the original and filtered image by using matplotlib.pyplot.
-
 ### Step5
 End the program.
-
 ## Program:
-### Developed By : MADHUVATHANI V
-### Register Number : 212223040107
+### Developed By   : MADHUVATHANI V
+### Register Number:212223040107
+</br>
 
 ### 1. Smoothing Filters
 
@@ -32,7 +30,7 @@ i) Using Averaging Filter
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-image1=cv2.imread("ocean.png")
+image1=cv2.imread("a.jpg")
 image2=cv2.cvtColor(image1,cv2.COLOR_BGR2RGB)
 kernel=np.ones((11,11),np.float32)/169
 image3=cv2.filter2D(image2,-1,kernel)
@@ -123,34 +121,28 @@ plt.show()
 ### 1. Smoothing Filters
 
 i) Using Averaging Filter
-
-![Screenshot 2025-04-23 084806](https://github.com/user-attachments/assets/f2cf78fd-c179-4c13-a250-1cb5ffbdc36f)
+<img width="768" height="300" alt="image" src="https://github.com/user-attachments/assets/8d9f29a3-969b-4141-b9a6-685dc8557e8b" />
 
 
 ii)Using Weighted Averaging Filter
+<img width="546" height="238" alt="image" src="https://github.com/user-attachments/assets/6b9f4fe2-b9b3-4fc1-a74e-a358177b06df" />
 
-![Screenshot 2025-04-23 084924](https://github.com/user-attachments/assets/59e4ddb6-1301-454a-ad7c-49985b48953d)
 
 iii)Using Gaussian Filter
-
-![Screenshot 2025-04-23 084947](https://github.com/user-attachments/assets/c65533d0-3f43-450b-a4a6-a788b8cad461)
-
+<img width="541" height="232" alt="image" src="https://github.com/user-attachments/assets/9d5f7ff8-8a50-4da0-8e2d-a0f1bf29a8db" />
 
 iv) Using Median Filter
-
-![Screenshot 2025-04-23 085016](https://github.com/user-attachments/assets/4aa477c4-5bf6-472e-8c66-5638a2f47d4b)
-
+<img width="727" height="293" alt="image" src="https://github.com/user-attachments/assets/2bb77fd6-238e-4f2b-87e6-a4640f92d8cf" />
 
 ### 2. Sharpening Filters
+</br>
 
 i) Using Laplacian Kernal
-
-![Screenshot 2025-04-23 085052](https://github.com/user-attachments/assets/5cf7cc78-4374-4753-b18c-dc4ace485f9f)
+<img width="583" height="229" alt="image" src="https://github.com/user-attachments/assets/eb8ca8d1-2f94-4989-b2db-430775cd4c80" />
 
 
 ii) Using Laplacian Operator
-
-![Screenshot 2025-04-23 085119](https://github.com/user-attachments/assets/5dc8c420-6554-40ad-a831-7b07eef0989e)
+<img width="527" height="234" alt="image" src="https://github.com/user-attachments/assets/eb96dec0-aa45-4e4b-9c3b-c7e2b3ed5b26" />
 
 
 ## Result:
