@@ -1,6 +1,5 @@
 # Implementation-of-filter
-## Name: Ananda Rakshan K V
-## Reg.No: 212223230014
+
 ## Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
 
